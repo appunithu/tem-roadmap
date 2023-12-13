@@ -13,7 +13,7 @@ const Tour = () => {
 
         <div className="section-center featured-center">
           {tours.map((tour) => {
-            const { id, info, text, title, location, cost, date, image } = tour;
+            const { id,text, title, location, cost, date, image } = tour;
 
             return (
               <article className="tour-card" key={id}>
